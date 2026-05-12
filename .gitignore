@@ -1,0 +1,27 @@
+# --- Security & Secrets (QUAN TRỌNG NHẤT) ---
+# Không bao giờ commit chìa khóa mã hóa Master Key
+.vault_key
+# Không commit các file chứa biến môi trường nhạy cảm
+.env
+*.pem
+*.key
+.venv
+
+# --- Data Privacy (Tuân thủ NĐ13) ---
+# Không commit dữ liệu thô chưa qua xử lý ẩn danh
+medviet-governance/data/raw/
+# Cho phép commit thư mục processed nhưng không commit file dữ liệu cụ thể (tùy chọn)
+# data/processed/*.csv 
+
+# --- Python Environment ---
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
