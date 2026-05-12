@@ -9,7 +9,7 @@
 
 # --- Data Privacy (Tuân thủ NĐ13) ---
 # Không commit dữ liệu thô chưa qua xử lý ẩn danh
-medviet-governance/data/raw/
+medviet-governance/data/raw/*
 # Cho phép commit thư mục processed nhưng không commit file dữ liệu cụ thể (tùy chọn)
 # data/processed/*.csv 
 
